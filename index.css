@@ -1,0 +1,65 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+body {
+    color: white;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.js-weather {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: large;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.clicked {
+    color: royalblue;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+input {
+    width: 150px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
